@@ -1,0 +1,9 @@
+.bg-gradient {
+  background: linear-gradient(to right, #ff3366, #ff9900);
+}
+
+@media (max-width: 768px) {
+  .character-info {
+    margin-top: 20px;
+  }
+}

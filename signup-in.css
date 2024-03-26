@@ -1,0 +1,27 @@
+@media (min-width: 800px) {
+  .image-with-inputs {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .inputs-container {
+    flex: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-container img {
+    display: none;
+  }
+}

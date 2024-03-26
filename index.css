@@ -1,0 +1,85 @@
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+  color: #007bff;
+}
+
+.modal-title {
+  color: #007bff;
+}
+
+.carousel-container {
+  width: 50% !important;
+  max-height: 40vh !important;
+}
+
+.carousel-inner {
+  overflow-y: hidden !important;
+}
+
+.carousel-item {
+  height: 100% !important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 500px !important;
+  width: 100%;
+  overflow-y: hidden;
+
+}
+
+.row:first-child {
+  width: 100%;
+}
+
+.accordion .card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.overflow {
+  overflow: auto;
+  height: 150px;
+}
+
+.article > *{
+  margin-top: 20px;
+}
+
+#login-img,
+#signup-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+}
+
+#login-img {
+  background-image: url(images/slider/bleach.png);
+}
+
+#signup-img {
+  background-image: url(images/slider/jjk.png);
+}
+
+body {
+  background-color: #a8a9ad;
+}
+
+#login {
+  background-color: #a8a9ad;
+}
+
+#register {
+  background-color: #a8a9ad;
+}
+
+#search_icon {
+  display: flex;
+  flex-direction: row;
+}
